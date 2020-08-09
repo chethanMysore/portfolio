@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,+BACE,kBAAqB,CAEvB,aACE,YAAc,CAEhB,iBACE,UAAY","file":"static/css/main.9d27007f.css","sourcesContent":[".container.form-status-message {\n  margin: 0 !important;\n}\n#site-header {\n  display: none;\n}\n#message-warning {\n  width: 100%;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}

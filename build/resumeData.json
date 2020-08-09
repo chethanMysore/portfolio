@@ -1,0 +1,106 @@
+{
+  "main": {
+    "name": "Chethan Mysuru Radhakrishna",
+    "description": "Pursuing Master's in Data and Knowledge Engineering | Web Developer",
+    "image": "chethan.jpg",
+    "bio": "I am a data science enthusiast with an inclination towards visual exploration of trends in data. I am also a skilled web developer with a collective experience of 4 years. However, I believe in the idea that \"What we know is a drop and what we don’t know is an ocean\".",
+    "contactmessage": "Feel free to contact me!",
+    "email": "chethanmr.2694@gmail.com",
+    "phone": "+49 176-3681-7295",
+    "github": "https://github.com/chethanMysore",
+    "project": "https://www.linkedin.com/in/chethan-radhakrishna-94310010b/",
+    "address": {
+      "street": "Arnold-Zweig Strasse 4",
+      "city": "Magdeburg",
+      "state": "Germany",
+      "zip": "39120"
+    },
+    "website": "",
+    "resumedownload": "Chethan_cv1.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/chethan-radhakrishna-94310010b/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/chethanMysore",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I have been using react.js, bootstrap, CSS, HTML, SQL, C# and ASP .NET Web API's for the last 4 years and I am confident in these technologies (.NET-react stack). Lately, I have been working on reSolve, a full stack javascript framework built on node.js, CQRS and Domain Driven Design. I am a quick learner and I have been learning R and Python since 2019 and I have worked on a scientific team project where I developed R API's to dynamically visualize trends in data along with a react.js dashboard.",
+    "education": [
+      {
+        "school": "Otto-von-Guericke University, Magdeburg",
+        "degree": "M.Sc. in Data and Knowledge Engineering",
+        "graduated": "2019 – Ongoing",
+        "description": "I have been keen on learning fundamentals of data science and have completed courses like Machine Learning, Data Mining, Visual Analytics, Introduction to Deep Learning, Digital Humanities and Knwoledge Engineering. I have also done several data management courses like Distributed Data Management, Data Management for Engineering Applications, Advanced Data Models"
+      },
+      {
+        "school": "Vidyavardhaka College of Engineering, India",
+        "degree": "B.E. in Computer Science and Engineering",
+        "graduated": "2012 – 2016",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Metratec Gmbh",
+        "title": "Software Developer - Student Job",
+        "years": "March 2010 – Present",
+        "description": "Working as a full stack web developer. Handled API integration with react-redux dashboards. worked on real time data using web sockets. worked on event sourcing and reSolve(a CQRS framework built using node.js). Managed Gitlab pipeline and docker configurations with yaml."
+      },
+      {
+        "company": "Happiest Minds Technologies Pvt Ltd",
+        "title": "Software Engineer",
+        "years": "October 2016 – January 2019",
+        "description": "Contributed as a full stack web developer. Worked on ASP.NET MVC applications and Web API services built on .NET framework 4.6.2 and .NET core. Worked on react.js and redux to implement stateful frontend designs. Worked exclusively on Health Care domain with the knowledge of online data exchange standards such as HL7. Worked on AWS EC2, S3 buckets, Simple Mail Service and Lambda(for deploying micro services). As a billable resource, interacted with clients to understand requirements and effectively communicated the innovative ideas to solve their problems."
+      }
+    ],
+    "skills": [
+      {
+        "name": "R",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "C#",
+        "level": "80%"
+      },
+      {
+        "name": "SQL",
+        "level": "80%"
+      },
+      {
+        "name": "mongoDB",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Ship Cohort Study",
+        "category": "A longitudinal cohort study of Hepatic Steatosis(Fatty Liver Disorder) and exploration of results by developing a visual exploration tool.",
+        "image": "Feature_Explanations.png",
+        "url": "https://github.com/chethanMysore/ship-study-ui"
+      },
+      {
+        "title": "Gesture Recognition App",
+        "category": "An interactive WPF application to recognize hand gestures made by authorized users who are authenticated using face recognition.",
+        "image": "gesture1.png",
+        "url": "https://github.com/chethanMysore/Kinect.GestureRecognitionAppV2"
+      }
+    ]
+  }
+}
