@@ -50,7 +50,7 @@
       {
         "company": "Metratec Gmbh",
         "title": "Software Developer - Student Job",
-        "years": "March 2010 – Present",
+        "years": "June 2019 – Present",
         "description": "Working as a full stack web developer. Handled API integration with react-redux dashboards. worked on real time data using web sockets. worked on event sourcing and reSolve(a CQRS framework built using node.js). Managed Gitlab pipeline and docker configurations with yaml."
       },
       {
@@ -90,16 +90,40 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Ship Cohort Study",
-        "category": "A longitudinal cohort study of Hepatic Steatosis(Fatty Liver Disorder) and exploration of results by developing a visual exploration tool.",
+        "title": "Ship Study Dashboard",
+        "category": "A visual exploration tool to describe results produced by machine learning model(RuleFit). The tool aims at interactively exploring the correlations between selected features. The tool also displays critical factors influencing the diagnosis of Hepatic Steatosis(Fatty Liver Disorder).",
         "image": "Feature_Explanations.png",
         "url": "https://github.com/chethanMysore/ship-study-ui"
+      },
+      {
+        "title": "Ship Study API",
+        "category": "ShipCohortStudy is a project aimed at using Interpretable Machine Learning to understand participant evolution in longitudinal cohort study data. ShipStudyApi is a restful service that exposes http endpoints to visualize the results of rulefit model built on SHIP dataset. Additionally, evoxploit package is used to augment the dataset with evolutionary features (Niemann et al., 2015) and rules extracted from building random forest on the dataset (Friedman et al., 2008). The feature selection is then performed using Least Absolute Shrinkage and Selection Operator(LASSO) to obtain minimal set of important features (Friedman et al., 2009). The api caters to a visualization dashboard that explores the model results dynamically and interactively.",
+        "image": "ship-study-api.png",
+        "url": "https://github.com/chethanMysore/ship-cohort-study"
+      },
+      {
+        "title": "Information Retrieval System",
+        "category": "This is a console java application which indexes files and directories and allows users to execute boolean queries on them. Here we used Apache Lucene to tokenize, index and query text in a directory(nested) or files. The application aims at achieving disambiguation of search terms and ranking of results based on relevance score.",
+        "image": "ir.png",
+        "url": "https://github.com/chethanMysore/info-retrieval-system"
       },
       {
         "title": "Gesture Recognition App",
         "category": "An interactive WPF application to recognize hand gestures made by authorized users who are authenticated using face recognition.",
         "image": "gesture1.png",
         "url": "https://github.com/chethanMysore/Kinect.GestureRecognitionAppV2"
+      },
+      {
+        "title": "Resource Management Dashboard",
+        "category": "This is a dashboard for Resource Manager. The application is written in reactjs with redux as state manager. The dashboard is styled with bootstrap and some custom css. The dashboard consumes API's exposed by node-backend.",
+        "image": "react-dashboard.png",
+        "url": "https://github.com/chethanMysore/react-front-end"
+      },
+      {
+        "title": "Resource Management API",
+        "category": "A node js API for performing crud operations on a database in mongoDB.",
+        "image": "node-backend.png",
+        "url": "https://github.com/chethanMysore/node-backend"
       }
     ]
   }
