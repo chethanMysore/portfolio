@@ -7,3 +7,9 @@
 #message-warning {
   width: 100%;
 }
+.min-card-height {
+  height: 335px;
+}
+.project-desc {
+  font-weight: 0.5;
+}
