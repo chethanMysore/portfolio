@@ -3,7 +3,7 @@
     "name": "Chethan Mysuru Radhakrishna",
     "description": "Pursuing Master's in Data and Knowledge Engineering | Web Developer",
     "image": "chethan.jpg",
-    "bio": "I am a data science enthusiast with an inclination towards visual exploration of trends in data. I am also a skilled web developer with a collective experience of 4 years. However, I believe in the idea that \"What we know is a drop and what we don’t know is an ocean\".",
+    "bio": "I am a data science enthusiast with an inclination towards visual exploration of trends in data. I am also a skilled web developer with a collective experience of 4.5 years. However, I believe in the idea that \"What we know is a drop and what we don’t know is an ocean\".",
     "contactmessage": "Feel free to contact me!",
     "email": "chethanmr.2694@gmail.com",
     "phone": "+49 176-3681-7295",
@@ -16,7 +16,7 @@
       "zip": "39120"
     },
     "website": "",
-    "resumedownload": "CV1_compressed.pdf",
+    "resumedownload": "CV3.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -31,7 +31,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have been using react.js, bootstrap, CSS, HTML, SQL, C# and ASP .NET Web API's for the last 4 years and I am confident in these technologies (.NET-react stack). Lately, I have been working on reSolve, a full stack javascript framework built on node.js, CQRS and Domain Driven Design. I am a quick learner and I have been learning R and Python since 2019 and I have worked on a scientific team project where I developed R API's to dynamically visualize trends in data along with a react.js dashboard.",
+    "skillmessage": "I have been using react.js, bootstrap, CSS, HTML, SQL, C# and ASP .NET Web API's for the last 4.5 years and I am confident in these technologies (.NET-react stack). Lately, I have been working on reSolve, a full stack javascript framework built on node.js, CQRS and Domain Driven Design. I am a quick learner and I have been learning R and Python since 2019 and I have worked on a scientific team project where I developed R API's to dynamically visualize trends in data along with a react.js dashboard.",
     "education": [
       {
         "school": "Otto-von-Guericke University, Magdeburg",
@@ -48,9 +48,15 @@
     ],
     "work": [
       {
+        "company": "Bosch Engineering Gmbh",
+        "title": "Big Data Analyst Intern",
+        "years": "April 2021 – September 2021",
+        "description": "Worked as an intern on big-data analysis in project management metrics. Created complex data preparation and wrangling queries and interactive dashboard visualizations in Splunk Enterprise tool. These visualizations are used every day by various levels of management to track and analyse the progress of several ongoing projects at Bosch Engineering both in Germany and in the US. Also, worked on automatic dashboard deployment scripts in python."
+      },
+      {
         "company": "Metratec Gmbh",
         "title": "Software Developer - Student Job",
-        "years": "June 2019 – Present",
+        "years": "June 2019 – February 2021",
         "description": "Working as a full stack web developer. Handled API integration with react-redux dashboards. worked on real time data using web sockets. worked on event sourcing and reSolve(a CQRS framework built using node.js). Managed Gitlab pipeline and docker configurations with yaml."
       },
       {
@@ -89,6 +95,12 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Small Vessel Segmentation using Deformation-aware Semi-supervised learning",
+        "category": "Application of DS6 Deformation-aware Semi-supervised learning published by Soumick Chatterjee et.al., to 7T MRA images and improvement of segmentation quality by Max Intensity Projection (MIP) comparisons.",
+        "image": "UNET-MSS.png",
+        "url": "https://arxiv.org/abs/2006.10802"
+      },
       {
         "title": "Ship Study Dashboard",
         "category": "A visual exploration tool to describe results produced by machine learning model(RuleFit). The tool aims at interactively exploring the correlations between selected features. The tool also displays critical factors influencing the diagnosis of Hepatic Steatosis(Fatty Liver Disorder).",
