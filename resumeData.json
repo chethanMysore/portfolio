@@ -16,7 +16,7 @@
       "zip": "39104"
     },
     "website": "",
-    "resumedownload": "CV3.pdf",
+    "resumedownload": "Chethan_CV.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -36,21 +36,21 @@
       {
         "school": "Otto-von-Guericke University, Magdeburg",
         "degree": "M.Sc. in Data and Knowledge Engineering",
-        "graduated": "2019 – Ongoing",
+        "graduated": "Apr 2019 – Jun 2023 (Ongoing)",
         "description": "I have been keen on learning fundamentals of data science and have completed courses like Machine Learning, Data Mining, Visual Analytics, Introduction to Deep Learning, Digital Humanities and Knwoledge Engineering. I have also done several data management courses like Distributed Data Management, Data Management for Engineering Applications, Advanced Data Models"
       },
       {
         "school": "Vidyavardhaka College of Engineering, India",
         "degree": "B.E. in Computer Science and Engineering",
-        "graduated": "2012 – 2016",
+        "graduated": "Jun 2012 – Jul 2016",
         "description": ""
       }
     ],
     "work": [
       {
         "company": "Bosch Engineering Gmbh",
-        "title": "Big Data Analyst Intern",
-        "years": "April 2021 – September 2021",
+        "title": "Big Data Analyst in Project Management Metrics",
+        "years": "Intern Apr 2021 – Sep 2021 | Work Student Jan 2022 - Dec 2022",
         "description": "Worked as an intern on big-data analysis in project management metrics. Created complex data preparation and wrangling queries and interactive dashboard visualizations in Splunk Enterprise tool. These visualizations are used every day by various levels of management to track and analyse the progress of several ongoing projects at Bosch Engineering both in Germany and in the US. Also, worked on automatic dashboard deployment scripts in python."
       },
       {
@@ -68,12 +68,12 @@
     ],
     "skills": [
       {
-        "name": "R",
-        "level": "70%"
+        "name": "Python",
+        "level": "90%"
       },
       {
-        "name": "Python",
-        "level": "60%"
+        "name": "R",
+        "level": "70%"
       },
       {
         "name": "ReactJs",
@@ -88,6 +88,10 @@
         "level": "80%"
       },
       {
+        "name": "SPLUNK",
+        "level": "90%"
+      },
+      {
         "name": "mongoDB",
         "level": "60%"
       }
@@ -96,8 +100,14 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Small Vessel Segmentation using Deformation-aware Semi-supervised learning",
-        "category": "Application of DS6 Deformation-aware Semi-supervised learning published by Soumick Chatterjee et.al., to 7T MRA images and improvement of segmentation quality by Max Intensity Projection (MIP) comparisons.",
+        "title": "Master’s Thesis: Investigating the Challenges of 3D Image Segmentation without Manually Segmented Ground Truth",
+        "category": "The research aims at exploring possible benefits of Unsupervised Deep Learning (DL) techniques to reduce the dependency on prior annotations in 3D Image Segmentation. The research tasks include comparison of quality of segmentations generated using UNet and WNet based architectures with and without limited/weak annota- tions. The study extends Attention WNet architecture with the similarity and consistency losses proposed in the Differentiable Feature Clustering (DFC). The approach is validated by performing Pathology Detection(Tumor Segmentation) using 3D MRI volumes obtained using 3Tesla and 7Tesla scanners. Also, the study compares the resulting segmentations obtained using the proposed approach against non-DL baselines to analyse the efficiency of Deep CNNs in the field of Computer Vision.",
+        "image": "WNet.png",
+        "url": "https://github.com/chethanMysore/w-net-3d"
+      },
+      {
+        "title": "Enhancing Vessel Continuity in Deep Learning based Segmentation using Maximum Intensity Projection as Loss",
+        "category": "The study focuses on challenges pertaining to segmentation of biomedical images by extending \"DS6: Deformation-aware Semi-supervised learning\" published by Dr.Chatterjee et.al., with Maximum Intensity Projection (MIP) comparisons. The proposed Vessel Segmentation approach was validated using limited annotated samples of high resolution 7Tesla 3D-MRA volumes. The qualitative analysis of ROIs re- vealed clear improvement in the continuity of vessel structures per- ceived by the Deep Learning network after incorporating MIP comparisons as one of the loss terms during training. The study is accepted for presentation at the annual conference of International So- ciety for Magnetic Resonance in Medicine(ISMRM) to be held at Toronto from 03-08 June 2023.",
         "image": "UNET-MSS.png",
         "url": "https://arxiv.org/abs/2006.10802"
       },
