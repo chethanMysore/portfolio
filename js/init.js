@@ -151,7 +151,7 @@ jQuery(document).ready(function ($) {
 
     $.ajax({
       type: "POST",
-      url: "https://formspree.io/chethanmr.2694@gmail.com",
+      url: "https://formspree.io/f/xoqzprzy",
       data: data,
       success: function (msg) {
         // Message was sent
