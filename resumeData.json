@@ -127,7 +127,7 @@
         "title": "A Deep Learning Pipeline for Analysis of the 3D Morphology of the Cerebral Small Perforating Arteries from Time-of-Flight 7 Tesla MRI",
         "category": "The study aimed to develop a semi-automatic pipeline for quantifying the 3D morphology of LSAs from 7T-TOF-MRA in patients with Cerebral Small Vessel Diseases (CSVD). For segmentation, we fine-tuned a state-of-the-art deep learning model, DS6, for vessel segmentation and compared its performance against a classical Frangi filter-based pipeline, Multi-Scale Frangi Diffusive Filter (MSFDF). We show that analysing LSA morphology in 3D reveals previously inaccessible aspects of morphology. Our pipeline offers a valuable tool for clinical research studies to characterise the 3D morphology of LSAs in CSVD.",
         "image": "Rui_MRA.jpg",
-        "url": "https://arxiv.org/abs/2006.10802"
+        "url": "https://www.medrxiv.org/content/10.1101/2024.10.03.24314845v1"
       },
       {
         "title": "Investigating the Challenges of 3D Image Segmentation without Manually Segmented Ground Truth",
