@@ -16,7 +16,7 @@
       "zip": "39104"
     },
     "website": "",
-    "resumedownload": "Chethan_CV.pdf",
+    "resumedownload": "ChethanRadhakrishnaCV.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -31,13 +31,13 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have been using react.js, bootstrap, CSS, HTML, SQL, C# and ASP .NET Web API's for the last 4.5 years and I am confident in these technologies (.NET-react stack). Lately, I have been working on reSolve, a full stack javascript framework built on node.js, CQRS and Domain Driven Design. I am a quick learner and I have been learning R and Python since 2019 and I have worked on a scientific team project where I developed R API's to dynamically visualize trends in data along with a react.js dashboard.",
+    "skillmessage": "I have worked extensively with react.js, bootstrap, CSS, HTML, SQL, C# and ASP .NET Web API's for 4.5 years and I am confident in these technologies (.NET-react stack). I have worked on Event Driven Architectures including reSolve, a full stack javascript framework built on node.js, CQRS and Domain Driven Design. I have been learning R and Python ever since I decided to pursue Master's degree in data science. I have worked on several scientific team projects with tasks such as developing R API's, dynamically visualize trends in data along with a react.js dashboard, building patch based medical image segmentation pipelines with PyTorch and Deep CNN in python. I have also worked as a Big Data Analyst for 1.5 years with a comprehensive knowledge of project management metrics.",
     "education": [
       {
         "school": "Otto-von-Guericke University, Magdeburg",
         "degree": "M.Sc. in Data and Knowledge Engineering",
-        "graduated": "Apr 2019 – Jun 2023 (Ongoing)",
-        "description": "I have been keen on learning fundamentals of data science and have completed courses like Machine Learning, Data Mining, Visual Analytics, Introduction to Deep Learning, Digital Humanities and Knwoledge Engineering. I have also done several data management courses like Distributed Data Management, Data Management for Engineering Applications, Advanced Data Models"
+        "graduated": "Apr 2019 – March 2024",
+        "description": "I have been keen on learning fundamentals of data science and have completed courses like Machine Learning, Data Mining, Visual Analytics, Introduction to Deep Learning, Digital Humanities and Knwoledge Engineering. I have also done several data management courses like Distributed Data Management, Data Management for Engineering Applications, Advanced Data Models. I have worked on several team projects gaining experience in building 3D patch based pipelines for medical image segmentation."
       },
       {
         "school": "Vidyavardhaka College of Engineering, India",
@@ -57,7 +57,7 @@
         "company": "Metratec Gmbh",
         "title": "Software Developer - Student Job",
         "years": "June 2019 – February 2021",
-        "description": "Working as a full stack web developer. Handled API integration with react-redux dashboards. worked on real time data using web sockets. worked on event sourcing and reSolve(a CQRS framework built using node.js). Managed Gitlab pipeline and docker configurations with yaml."
+        "description": "Worked as a full stack web developer. Handled API integration with react-redux dashboards. worked on real time data using web sockets. worked on event sourcing and reSolve(a CQRS framework built using node.js). Managed Gitlab pipeline and docker configurations with yaml."
       },
       {
         "company": "Happiest Minds Technologies Pvt Ltd",
@@ -80,8 +80,16 @@
         "level": "80%"
       },
       {
+        "name": "NodeJs",
+        "level": "80%"
+      },
+      {
         "name": "C#",
         "level": "80%"
+      },
+      {
+        "name": "Java",
+        "level": "60%"
       },
       {
         "name": "SQL",
@@ -92,6 +100,10 @@
         "level": "90%"
       },
       {
+        "name": "PostgreSQL",
+        "level": "60%"
+      },
+      {
         "name": "mongoDB",
         "level": "60%"
       }
@@ -100,16 +112,28 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Master’s Thesis: Investigating the Challenges of 3D Image Segmentation without Manually Segmented Ground Truth",
-        "category": "The research aims at exploring possible benefits of Unsupervised Deep Learning (DL) techniques to reduce the dependency on prior annotations in 3D Image Segmentation. The research tasks include comparison of quality of segmentations generated using UNet and WNet based architectures with and without limited/weak annota- tions. The study extends Attention WNet architecture with the similarity and consistency losses proposed in the Differentiable Feature Clustering (DFC). The approach is validated by performing Pathology Detection(Tumor Segmentation) using 3D MRI volumes obtained using 3Tesla and 7Tesla scanners. Also, the study compares the resulting segmentations obtained using the proposed approach against non-DL baselines to analyse the efficiency of Deep CNNs in the field of Computer Vision.",
-        "image": "WNet.png",
-        "url": "https://github.com/chethanMysore/w-net-3d"
+        "title": "Master’s Thesis: Exploration of Deep Learning based Vessel Segmentation with Less to No Supervision",
+        "category": "The study aims at learning good quality vessel segmentation using 3D patch based unsupervised learning by estimating k-class probability distribution using Attention WNet architecture. The research explores the possibility of generating quality vessel segmentation in the absence of manual expert annotations. The study also extends the 2D MIP based pipeline to incorporate the weakly annotated MIPs of the 3D volume instead of the full-volume annotations. The research also explores the use of weak, noisy labels as supervision using the deformation-aware semi-supervised learning pipeline. The study compares the segmentation results of unsupervised, weakly-supervised and semi-supervised approaches and provides a novel performance ranking based on vessel diameters.",
+        "image": "poster_HCAIxIA_DILITHIUM.jpg",
+        "url": "https://github.com/soumickmj/DILITHIUM"
       },
       {
         "title": "Enhancing Vessel Continuity in Deep Learning based Segmentation using Maximum Intensity Projection as Loss",
         "category": "The study focuses on challenges pertaining to segmentation of biomedical images by extending \"DS6: Deformation-aware Semi-supervised learning\" published by Dr.Chatterjee et.al., with Maximum Intensity Projection (MIP) comparisons. The proposed Vessel Segmentation approach was validated using limited annotated samples of high resolution 7Tesla 3D-MRA volumes. The qualitative analysis of ROIs re- vealed clear improvement in the continuity of vessel structures per- ceived by the Deep Learning network after incorporating MIP comparisons as one of the loss terms during training. The study is accepted for presentation at the annual conference of International So- ciety for Magnetic Resonance in Medicine(ISMRM) to be held at Toronto from 03-08 June 2023.",
-        "image": "UNET-MSS.png",
+        "image": "Spockmip.jpg",
+        "url": "https://github.com/soumickmj/SPOCKMIP"
+      },
+      {
+        "title": "A Deep Learning Pipeline for Analysis of the 3D Morphology of the Cerebral Small Perforating Arteries from Time-of-Flight 7 Tesla MRI",
+        "category": "The study aimed to develop a semi-automatic pipeline for quantifying the 3D morphology of LSAs from 7T-TOF-MRA in patients with Cerebral Small Vessel Diseases (CSVD). For segmentation, we fine-tuned a state-of-the-art deep learning model, DS6, for vessel segmentation and compared its performance against a classical Frangi filter-based pipeline, Multi-Scale Frangi Diffusive Filter (MSFDF). We show that analysing LSA morphology in 3D reveals previously inaccessible aspects of morphology. Our pipeline offers a valuable tool for clinical research studies to characterise the 3D morphology of LSAs in CSVD.",
+        "image": "Rui_MRA.jpg",
         "url": "https://arxiv.org/abs/2006.10802"
+      },
+      {
+        "title": "Investigating the Challenges of 3D Image Segmentation without Manually Segmented Ground Truth",
+        "category": "The research aims at exploring possible benefits of Unsupervised Deep Learning (DL) techniques to reduce the dependency on prior annotations in 3D Image Segmentation. The research tasks include comparison of quality of segmentations generated using UNet and WNet based architectures with and without limited/weak annota- tions. The study extends Attention WNet architecture with the similarity and consistency losses proposed in the Differentiable Feature Clustering (DFC). The approach is validated by performing Pathology Detection(Tumor Segmentation) using 3D MRI volumes obtained using 3Tesla and 7Tesla scanners. Also, the study compares the resulting segmentations obtained using the proposed approach against non-DL baselines to analyse the efficiency of Deep CNNs in the field of Computer Vision.",
+        "image": "AttWNet.jpg",
+        "url": "https://github.com/chethanMysore/w-net-3d"
       },
       {
         "title": "Ship Study Dashboard",
