@@ -139,20 +139,30 @@ jQuery(document).ready(function ($) {
     var contactSubject = $("#contactForm #contactSubject").val();
     var contactMessage = $("#contactForm #contactMessage").val();
 
-    var data =
-      "contactName=" +
-      contactName +
-      "&contactEmail=" +
-      contactEmail +
-      "&contactSubject=" +
-      contactSubject +
-      "&contactMessage=" +
-      contactMessage;
+    var data = {
+      contactName: contactName,
+      contactEmail: contactEmail,
+      contactSubject: contactSubject,
+      contactMessage: contactMessage,
+    };
+    // var data =
+    //   "contactName=" +
+    //   contactName +
+    //   "&contactEmail=" +
+    //   contactEmail +
+    //   "&contactSubject=" +
+    //   contactSubject +
+    //   "&contactMessage=" +
+    //   contactMessage;
 
     $.ajax({
       type: "POST",
       url: "https://formspree.io/f/xdennaww",
       data: data,
+      dataType: "json",
+      headers: {
+        Accept: "application/json",
+      },
       success: function (msg) {
         // Message was sent
         if (msg == "OK") {
