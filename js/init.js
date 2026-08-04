@@ -36,7 +36,7 @@ jQuery(document).ready(function ($) {
         "swing",
         function () {
           window.location.hash = target;
-        }
+        },
       );
   });
 
@@ -55,7 +55,7 @@ jQuery(document).ready(function ($) {
       if (direction === "up") active_section = active_section.prev();
 
       var active_link = $(
-        '#nav-wrap a[href="#' + active_section.attr("id") + '"]'
+        '#nav-wrap a[href="#' + active_section.attr("id") + '"]',
       );
 
       navigation_links.parent().removeClass("current");
@@ -151,7 +151,7 @@ jQuery(document).ready(function ($) {
 
     $.ajax({
       type: "POST",
-      url: "https://formspree.io/f/xoqzprzy",
+      url: "https://formspree.io/f/xdennaww",
       data: data,
       success: function (msg) {
         // Message was sent
